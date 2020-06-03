@@ -1,0 +1,8 @@
+EMAIL_LOGIN = ""
+EMAIL_PASSWORD = ""
+REGISTRAR_LOGIN = ""
+REGISTRAR_PASSWORD = ""
+
+WANTED_COURSES = [
+        'HST 100',
+        ]
