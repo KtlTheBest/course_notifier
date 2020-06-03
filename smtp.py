@@ -111,7 +111,8 @@ def get_wanted_courses():
 
     if len(args) > 1:
         for course in args[1:]:
-            wanted_courses.append(course)
+            if course not in wanted_courses:
+                wanted_courses.append(course)
 
 
 def main():
